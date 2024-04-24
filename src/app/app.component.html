@@ -1,0 +1,12 @@
+<h1>hola mundo</h1>
+
+
+<div class="card" *ngFor="let dbz of array_data">
+  <img src="https://www.egames.news/__export/1662305674952/sites/debate/img/2022/09/04/por_qux_gokx_no_revive_a_sus_padres_y_a_todos_los_habitantes_del_planeta_vegeta.jpg_554688468.jpg" alt="Placeholder" class="card-image">
+  <div class="card-content">
+    <h2 class="card-title">{{dbz.name}}</h2>
+    <p class="card-text">{{dbz.description}}</p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

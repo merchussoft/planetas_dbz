@@ -1,0 +1,28 @@
+/* Estilos de la tarjeta */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #666;
+  }
